@@ -7,8 +7,13 @@
 .title{position: absolute; left: 10%; top:50%; font-family: 'Herr Von Muellerhoff', cursive; color: #fff;}
 .title > p{font-size: 1.625rem;}
 .title > p > span{font-size: 2.625rem;}
-.cloud{background-image: url("../img/could.png"); background-repeat: no-repeat; background-size: cover; animation: animate 200s linear infinite; position: absolute; bottom: 0; left: 0; width:100%; height: 100%; z-index: 99;}
+.cloud {animation:animate 100s linear alternate infinite; position:absolute; top:20%; left:0; z-index: 99;}
 
 .section{width: 100%;}
-.sc_navs{width: 15%; height: 100%; text-align: center; font-size: 1.25rem; border-right: 1px solid #ccc;}
+.sc_navs {width:15%; height:100%; text-align:center; font-size:1.25rem; border-right: 1px solid #ccc; position:fixed; left:-15%; z-index:9999;}
 .sc_navs > li{padding:3%; cursor: pointer;}
+
+@keyframes animate {
+	0% {left:0;}
+	100% {left:-100%;}
+}

@@ -1,5 +1,6 @@
 var scTop = 0;
 var navChk = true;
+
 $(window).scroll(function(){
 	scTop = $(window).scrollTop();
 	if(scTop > 150) {

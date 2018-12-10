@@ -18,7 +18,7 @@
 .sc_navs {width:15%; height:100%; text-align:center; font-size:1.25rem; border-right: 1px solid #ccc; position:fixed; left:-15%; z-index:9999; background-color:rgba(0,0,0,0.8); color: #fff;}
 .sc_navs > li{padding:35% 0; cursor: pointer;}
 
-.about{padding: 9.375rem 0; width: 100%; height: 100%;}
+.about{padding-top: 9.375rem; width: 100%; height: 100%;}
 .about > h2{color: #444444; font-weight: bold; font-size: 2.625rem; text-align: center;}
 .about_lt{padding: 3.125rem 0;}
 .about_lt > div{width: 24.375rem; height: 24.375rem; border-radius: 50%; overflow: hidden;}
@@ -28,7 +28,7 @@
 .about_rt > h4{color:#999999;font-weight: bold;}
 .about_rt > h5{color: #cccccc; line-height: 1.25rem;}
 
-.skill{width: 100%; height: 100%; padding: 9.375rem 0; }
+.skill{width: 100%; height: 100%; padding-top: 9.375rem;}
 .skill > h2{color: #444444; font-weight: bold; font-size: 2.625rem; text-align: center;padding-bottom: 3.125rem;}
 .chart_wrap{width: 18.4%; float: left; border: 1px solid #ccc; padding: 3%; margin-right: 2%;}
 .chart_wrap:last-child{margin-right: 0%;}
@@ -39,15 +39,18 @@
 .ban_text > h3{font-weight: bold; line-height: 2rem;}
 .ban_text > h3 > span{display: block;}
 
-.portfolio{width: 100%; height: 100%; padding: 9.375rem 0; }
+.portfolio{width: 100%; height: 100%; padding-top: 9.375rem;}
 .portfolio h2{color: #444444; font-weight: bold; font-size: 2.625rem; text-align: center;padding-bottom: 3.125rem;}
 .port_list{width: 100%;}
 .port_list > li{float: left; width: 49.5%; height:49.5%; margin-right: 1%; margin-bottom:1%; background-color: #000;}
 .port_list > li:nth-child(2),.port_list > li:nth-child(4){margin-right: 0%;}
 .port_list > li:nth-child(3),.port_list > li:nth-child(4){margin-bottom: 0%;}
 
-.contact{width: 100%; height: 100%; padding: 9.375rem 0;}
+.contact{width: 100%; height: 100%; padding-top: 9.375rem;}
 .contact > h2{color: #444444; font-weight: bold; font-size: 2.625rem; text-align: center;padding-bottom: 3.125rem;}
-.cont_list{position: relative; background: url(../img/bg03.png) no-repeat center; background-attachment: fixed; background-size: cover; width: 100%; height: 100%; min-height: 100%;}
+.cont_list{position: relative; background: url(../img/bg03.png) no-repeat center; background-attachment: fixed; background-size: cover; width: 100%;height: 100%;}
 .cont_list > div{display: table; position: absolute; background-color: rgba(0,0,0,0.2); border: 1px solid #ccc; width: 28.625rem; height: 28.625rem; top: 20%; left:40%;}
 .cont_list > div > .cont_text{display: table-cell; vertical-align: middle; color: #fff; text-align: center;}
+
+.footer{width: 1005; background-color: #333;}
+.footer > div >  address{color: #fff; font-weight: bold;}

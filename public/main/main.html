@@ -5,14 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>정현아의 포트폴리오 사이트입니다.</title>
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css" />
   <script src="/__/firebase/5.6.0/firebase-app.js"></script>
   <script src="/__/firebase/5.6.0/firebase-auth.js"></script>
   <script src="/__/firebase/5.6.0/firebase-database.js"></script>
@@ -21,6 +19,7 @@
   <script src="/__/firebase/init.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 </head>
 
 <body>
@@ -30,7 +29,7 @@
     <li>Portfolio</li>
     <li>contact</li>
   </ul>
-  <header class="header clear">
+  <header class="header page clear">
     <div class="wrap">
       <ul class="navs">
         <li>About</li>
@@ -47,9 +46,78 @@
       <img src="../img/could.png">
     </div>
   </header>
-  <section class="section">
-    
-  </section>
+  <div class="section">
+    <div class="wrap">
+      <div class="about clear page" id="page">
+        <h2>About Me</h2>
+        <div class="about_lt col-md-6 col-sm-12">
+          <div>
+            <img src="../img/about.png" class="img">
+          </div>
+        </div>
+        <div class="about_rt col-md-6 col-sm-12">
+          <p><span>Name :</span> 정현아</p>
+          <p><span>Birth :</span> 1994 . 06 .25</p>
+          <p><span>Address :</span> 서울시 관악구 신림동</p>
+          <p><span>phone :</span> 010 - 3225 - 5412</p>
+          <h4>"실패를 두려워하지 말자"</h4>
+          <h5>실패를 두려워 한다면 어떠한 일도 시작할수 없습니다. 시작을 하기위해서 어떠한 도전이든 도전하여 강인한 정신력으로 매일 성장해나가는 웹퍼블리셔가 되고자 합니다.</h5>
+        </div>
+      </div>
+      <div class="skill clear page" id="page">
+        <h2>Skill</h2>
+        <div class="chart_wrap">
+          <canvas id="chart1" class="chart"></canvas>
+        </div>
+        <div class="chart_wrap">
+          <canvas id="chart2" class="chart"></canvas>
+        </div>
+        <div class="chart_wrap">
+          <canvas id="chart3" class="chart"></canvas>
+        </div>
+        <div class="chart_wrap">
+          <canvas id="chart4" class="chart"></canvas>
+        </div>
+        <div class="chart_wrap">
+          <canvas id="chart5" class="chart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ban_pic clear">
+    <div>
+      <div class="ban_text">
+        <h3>
+          <span>“때로는 누구도 생각하지 못한 누군가가</span>
+          <span>누구도 생각지 못한 일을 해낸다”</span>
+        </h3>
+        <p>-영화 ‘이미테이션 게임’ 中에서-</p>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio clear page" id="page">
+    <div class="wrap">
+      <h2>Portfolio</h2>
+      <ul class="port_list">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+  <div class="contact page" id="page">
+    <h2>Contact</h2>
+    <div class="cont_list">
+      <div>
+        <div class="cont_text">
+          <p>Phone : 010 - 3225 - 5412</p>
+          <p>e-mail : skfro266@naver.com</p>
+          <p>github : github.com/skfro266</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer class="footer"></footer>
   <script src="../js/main.js"></script>
 </body>

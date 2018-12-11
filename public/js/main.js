@@ -157,7 +157,7 @@ $(window).scroll(function(){
 	else {
 		$(".sc_navs").stop().animate({"left":"-15%"}, 100);
     }
-    if($("html,body").scrollTop() > $(".skill").offset().top - 200) {
+    if($("html,body").scrollTop() > $(".skill").offset().top - 300) {
         if(chartChk) {
             var chart = [];
             var ctx = $(".chart");

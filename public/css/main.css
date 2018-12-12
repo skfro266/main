@@ -21,7 +21,20 @@
 .about{padding-top: 9.375rem; width: 100%; height: 100%;}
 .about > h2{color: #444444; font-weight: bold; font-size: 2.625rem; text-align: center;}
 .about_lt{padding: 3.125rem 0;}
+.about-eng{animation-name: aboutEng; animation-duration: 1s; animation-fill-mode: forwards; opacity: 0;}
+@keyframes aboutEng{
+	0%{transform: translateY(100px); opacity: 0;}
+	100%{transform: translateY(0); opacity: 1;}
+}
+
 .about_lt > div{width: 24.375rem; height: 24.375rem; border-radius: 50%; overflow: hidden;}
+.about-img{animation-name: aboutImg; animation-delay: 0.3s; animation-duration: 1s; animation-fill-mode: forwards; opacity: 0;}
+
+@keyframes aboutImg{
+	0%{transform: scale(2); opacity: 0;}
+	100%{transform: scale(1); opacity: 1;}
+}
+
 .about_rt{padding: 3.125rem 0;}
 .about_rt > p{color: #666; font-size: 1.25rem;}
 .about_rt > p > span{font-weight: bold; color: #000; font-size: 1.5rem;}

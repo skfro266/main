@@ -188,6 +188,4 @@ $(".navs > li, .sc_navs > li").click(function(){
     });
 });
 
-
-
-
+var p = new SpaAni(".pages",".anis",800);

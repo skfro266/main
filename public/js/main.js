@@ -189,3 +189,10 @@ $(".navs > li, .sc_navs > li").click(function(){
 });
 
 var p = new SpaAni(".pages",".anis",800);
+
+$(".port").mouseenter(function(){
+    $(this).children(".port_hover").stop().animate({"left":"100%"}, 200);
+});
+$(".port").mouseleave(function(){
+    $(this).children(".port_hover").stop().animate({"left":0}, 200);
+});

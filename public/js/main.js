@@ -188,7 +188,7 @@ $(".navs > li, .sc_navs > li").click(function(){
     });
 });
 
-var p = new SpaAni(".pages",".anis",800);
+var p = new SpaAni(".pages",".anis",300);
 
 $(".port").mouseenter(function(){
     $(this).children(".port_hover").stop().animate({"left":"100%"}, 200);
@@ -198,11 +198,11 @@ $(".port").mouseleave(function(){
 });
 
 $(".port_bts01").click(function(){
-    window.location.href="https://fldhchdl-coffee.firebaseapp.com/main/main.html"
+    window.open("https://fldhchdl-coffee.firebaseapp.com/main/main.html");
 });
 $(".port_bts02").click(function(){
-    window.location.href="https://fldhchdl-magsite.firebaseapp.com/index.html"
+    window.open("https://fldhchdl-magsite.firebaseapp.com/index.html");
 });
 $(".port_bts03").click(function(){
-    window.location.href="https://fldhchdl-main.firebaseapp.com/main/main.html"
+    window.open("https://fldhchdl-main.firebaseapp.com/main/main.html");
 });

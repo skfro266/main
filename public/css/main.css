@@ -52,14 +52,19 @@
 .ban_text > h3{font-weight: bold; line-height: 2rem;}
 .ban_text > h3 > span{display: block;}
 
-.portfolio{width: 100%; height:100%; padding-top: 9.375rem;}
+.portfolio{width: 100%;padding: 9.375rem 0;}
 .portfolio h2{color: #444444; font-weight: bold; font-size: 2.625rem; text-align: center;padding-bottom: 3.125rem;}
 .port_list{width: 50%;position: relative;}
 .port_list > li{width: 100%; float: left;}
-.port{position: relative;border: 1px solid #ccc; border-right:0;}
+.port{position: relative;border: 1px solid #ccc; border-right:0; margin-bottom: 5%;}
+.port:last-child{margin-bottom: 0%;}
 .port_img { position:relative; z-index:100;}
 .port_img > .port_mo {position:absolute; bottom:0; left:50%;}
+.port_img > .port_work{}
+.port_img > .port_art{position:absolute; bottom:0; left:80%;}
 .port_hover { position:absolute; z-index:99; top:0; left:0; width:100%; height:100%; border: 1px solid #ccc; border-left: 0;}
+.logo01{width: 30%;}
+.logo02{width: 20%;}
 
 .contact{width: 100%; height:100%; position:relative;}
 .contact_tit {display:table; width:100%; height:20%;}

@@ -196,3 +196,13 @@ $(".port").mouseenter(function(){
 $(".port").mouseleave(function(){
     $(this).children(".port_hover").stop().animate({"left":0}, 200);
 });
+
+$(".port_bts01").click(function(){
+    window.location.href="https://fldhchdl-coffee.firebaseapp.com/main/main.html"
+});
+$(".port_bts02").click(function(){
+    window.location.href="https://fldhchdl-magsite.firebaseapp.com/index.html"
+});
+$(".port_bts03").click(function(){
+    window.location.href="https://fldhchdl-main.firebaseapp.com/main/main.html"
+});
